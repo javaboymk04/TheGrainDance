@@ -1,0 +1,52 @@
+baseURL = 'https://javaboymk04.github.io/TheGrainDance'
+languageCode = 'en-us'
+title = 'The Grain Dance'
+theme = 'ananke'
+publishDir = 'docs'
+
+#Cover BG and Logo
+
+[params]
+    featured_image_class = "cover bg-center"
+    custom_css = ["custom.css"]
+    mainSections = ["opinion", "review", "others"]
+    site_logo = "images/logo.png"
+
+#Taxonomies
+
+[taxonomies]
+    category = "categories"
+    tags = "tags"
+
+#Social icons
+
+[params.ananke.social.follow]
+    networks =["instagram", "lomography"]
+
+[params.ananke.social.instagram]
+    username = "javaboymk03"
+
+[params.ananke.social.lomography]
+    username = "javaboymk03"
+
+#Defining Lomography
+
+[params.ananke.social.networks.lomography]
+    slug = "lomography"
+    label = "Lomography"
+    profile = "https://www.lomography.com/homes/%s"
+    icon = "lomography"
+    share = false
+
+#Menu 
+
+[menu]
+    [[menu.main]]
+    name ="About"
+    url = "/about/"
+    weight = 10
+
+    [[menu.main]]
+    name = "Category"
+    url = "/categories/"
+    weight = 20

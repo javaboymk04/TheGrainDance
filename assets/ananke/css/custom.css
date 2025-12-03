@@ -1,0 +1,59 @@
+/* Justified text for everything */
+.nested-copy-line-height figure figcaption {
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    color: #666666;
+}
+
+.nested-copy-line-height figure figcaption p {
+    margin: 0;
+}
+
+.nested-copy-line-height p {
+    text-align: justify;
+}
+.nested-copy-line-height li {
+    text-align: justify;
+}
+
+/* Add Lomography button to header */
+header a[href*="lomography.com"] svg,
+footer a[href*="lomography.com"] svg {
+    transform: scale(2.0);
+    transform-origin: left center;
+}
+
+header a[href*="lomography.com"] svg,
+footer a[href*="lomography.com"] svg {
+    margin-left: 0.5rem;
+}
+
+/* Hero Title Size */
+.hero-title {
+        font-size: 3.0rem;
+}
+@media (min-width: 60rem) {
+    .hero-title {
+        font-size: 4.0rem;
+    }
+}
+@media (min-width: 75rem) {
+    .hero-title {font-size: 4.5rem;}
+}
+
+/* Navbar Logo Size */
+.site-logo {
+    height: 3rem;
+    width: auto;
+}
+@media (min-width: 48rem) {
+    .site-logo {
+        height: 3.5rem;
+    }
+}
+@media (min-width: 64rem) {
+    .site-logo {
+        height: 4rem;
+    }
+}
