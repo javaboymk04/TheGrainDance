@@ -9,7 +9,7 @@ description = "You've read the about section, right?"
 tags = ['others']
 +++
 
-Welcome, I'm sure that you're not finding this from google or something because I haven't put any SEO in this website (at the time of writing) but if you do. Welcome!
+Welcome, I'm sure that you're not finding this from google or something because this is stuff is just too personal but if you do. Welcome!
 
 <!--more-->
 ---
@@ -57,3 +57,7 @@ But in all seriousness. I **do** hope you enjoy your time visiting my site. Here
 You can find me in other places by clicking the link(s) in the top right corner.
 
 I'm currently not setting up comments on my post due to privacy issue (Disqus), requiring money (Commento), or needing a GitHub account (Giscus and Utterance). So if you want to say something about my works, **please contact me [via email.](mailto:alif4chan@gmail.com)**
+
+## Edit (as of 4 Dec 2025)
+
+Turns out Hugo already has SEO, so I deleted the part where I said that I haven't implement SEO yet (won't add anything regarding SEO anyway since I don't really need it)
