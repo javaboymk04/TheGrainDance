@@ -1,8 +1,8 @@
-baseURL = 'https://javaboymk04.github.io/TheGrainDance/'
+baseURL = 'https://thegraindance.pages.dev/'
 languageCode = 'en-us'
 title = 'The Grain Dance'
 theme = 'ananke'
-publishDir = 'docs'
+
 
 #Cover BG and Logo
 
